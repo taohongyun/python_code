@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588bea0b-a9cd-45fd-9f8f-83ce4e1f3cbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pycode_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycode_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../代码练习/pycode_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../代码练习/pycode_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../代码练习/pycode_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../代码练习/pycode_8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -32,6 +32,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="21XsAluFqEbK2EDw8SB9rpTh6sM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../代码练习" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
