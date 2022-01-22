@@ -22,4 +22,4 @@ def mergesort(list):
 
 li = [24,8565,4,8,5894,245,6,412]
 a = mergesort(li)
-print(a)
+print(a)    # 原列表拆分成新列表，所以要给赋予新变量进行打印

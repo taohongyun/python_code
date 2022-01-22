@@ -21,3 +21,29 @@ def quicksort(arr, start, end):
 li = [-4,54,4875,14,-18,-10]
 a = quicksort(li, 0, len(li) - 1)
 print(a)
+
+
+
+#快速排序
+
+def quicksort(list,left,right):
+    if left >= right:
+        return
+    pivot = list[left]
+    l = left
+    r = right
+    while l < r:
+        while l < r and list[r] >= pivot:
+            r -= 1
+        list[l] = list[r]
+        while l < r and list[l] < pivot:
+            l += 1
+        list[r] = list[l]
+    list[r] = pivot
+    quicksort(list,left,r-1)
+    quicksort(list,r+1,right)
+    return list
+
+li = [124,842,4,5,7,1,5,7,1878,512]
+quicksort(li,0,len(li)-1)
+print(li)
