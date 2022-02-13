@@ -1,6 +1,6 @@
 
 
-
+#
 def bucketSort(nums):
     # 选择一个最大的数
     max_num = max(nums)
@@ -30,8 +30,20 @@ print(bucketSort(nums))
 
 
 
+def bucketsort(nums):
+    max_num = max(nums)
+    bucket = [0] * (max_num+1)
+    for i in nums:
+        bucket[i] += 1
 
+    bucket_sort = []
+    for j in range(len(bucket)):
+        if bucket[j] != 0:
+            for k in range(bucket[j]):
+                bucket_sort.append(j)
+    return bucket_sort
 
-
+nums = [5, 6, 3, 2, 1, 65, 2, 0, 8, 0]
+print(bucketSort(nums))
 
 
